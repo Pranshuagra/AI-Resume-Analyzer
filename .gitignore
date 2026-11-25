@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+venv/
+env/
+.venv/
+.env
+.vscode/
+*.log
+
+# Personal resume files
+resume_*.pdf
+sample_resume.pdf
+perfect_resume_*.pdf
+
+# Temporary files
+*.tmpv
