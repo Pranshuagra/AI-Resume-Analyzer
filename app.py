@@ -20,7 +20,7 @@ def extract_text_pymupdf(pdf_path):
     doc.close()
     return text.strip()
 
-model = SentenceTransformer('stsb-roberta-large')
+model = SentenceTransformer('all-MiniLM-L6-v2')
 
 @app.route('/')
 def index():
